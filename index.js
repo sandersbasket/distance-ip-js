@@ -26,7 +26,7 @@ function deg2rad(deg) {
       const json_1 = await response_1.json()
       let result_dist = distance(json.lat, json.lon, json_1.lat, json_1.lon)
       if (result_dist != null || result_dist != undefined) {
-        console.log('Result: \n' + getinfo_ip[1] + ' [' + json.country + '/' + json.city + '] \n' + getinfo_ip[2] + ' [' + json_1.country + '/' + json_1.city + ']\nDistance: ' + Math.round(result_dist, 1) + 'km')
+        console.log('Result: \n' + ' [' + json.country + '/' + json.city + '] \n' + ' [' + json_1.country + '/' + json_1.city + ']\nDistance: ' + Math.round(result_dist, 1) + 'km')
       }
       console.log(json);
     } catch (error) {
