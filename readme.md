@@ -1,2 +1,2 @@
-# Distancee IP
+# Distance IP
 > A function that results in a distance between two IP addresses
